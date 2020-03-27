@@ -1,0 +1,31 @@
+{
+  "name": "kingcache",
+  "version": "1.0.0",
+  "description": "A library for caching files to speed up other scripts",
+  "main": "dist/kingcache.js",
+  "scripts": {
+    "build": "webpack",
+    "first-test": "node test/first.test.js",
+    "update-package-lock": "synp --source-file yarn.lock --force"
+  },
+  "types": "dist/kingcache.d.ts",
+  "repository": "blank",
+  "author": "Jacob Allen Morris",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bson": "^4.0.2",
+    "@types/node": "^12.12.31",
+    "@types/randomstring": "^1.1.6",
+    "@types/sha.js": "^2.4.0",
+    "synp": "^1.7.0",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "bson": "^4.0.4",
+    "randomstring": "^1.1.5",
+    "sha.js": "^2.4.11"
+  }
+}
