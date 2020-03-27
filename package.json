@@ -9,7 +9,7 @@
     "update-package-lock": "synp --source-file yarn.lock --force"
   },
   "types": "dist/kingcache.d.ts",
-  "repository": "blank",
+  "repository": "https://github.com/Jacobboogiebear/KingCache",
   "author": "Jacob Allen Morris",
   "license": "MIT",
   "devDependencies": {
